@@ -1,2 +1,2 @@
 # Rosalea
- Site de uma loja de roupa fictícia desenvolvido para a avaliação 1 de prática de programação em sistemas web
+ Site de uma loja de roupa fictícia desenvolvido para a matéria de prática de programação em sistemas web
