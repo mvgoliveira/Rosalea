@@ -123,4 +123,14 @@ header h1::after {
     padding-left: 10px;
 }
 
+.RedesSociais {
+    margin-top: 50px;
+}
+
+.RedesSociais i{
+    color: rgb(255, 214, 68);
+    font-size: 25px;
+    width: 100px;
+}
+
 
