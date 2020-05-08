@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.Hero {
+    display: grid;
+    background: #222 url(../assets/hero.png) top no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+header {
+    align-self: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+header section{
+    display: flex;
+}
+
+header section a {
+    padding: 0 20px;
+    font-family: roboto;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.1px;
+}
+
+header section a:last-child {
+    padding-right: 0;
+}
+
+header h1 {
+    font-family: Bebas neue;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+header h1::after {
+    content: "Rosaléa";
+}
+
+.RedesSociais {
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+    padding: 20px 50px;
+}
+
+.RedesSociais a {
+    color: #fff;
+    padding: 0 10px;
+}
+
+.RedesSociais a:last-child {
+    padding-right: 0;
+}
+
+
+
+.Historia {
+    display: flex;
+    background: url(../assets/Modelo2.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    min-height: 100vh;
+    justify-content: space-between;
+
+    justify-content: start;
+    align-items: center;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.Info article {
+    background-color: rgb(231, 185, 16);
+    display: flex;
+    font-size: 2rem;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.Info article i {
+    padding: 40px 20px;
+    background-color: #FAC90F;
+    color: #000;
+}
+
+.Info article p {
+    padding: 0 20px;
+    font-family: roboto;
+    font-size: 1.5rem;
+}
+
+
+.Produtos {
+
+    font-family: Roboto;
+
+    background: url(../assets/Modelo1.jpg) center no-repeat;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    list-style: none;
+
+    padding: 100px 150px;
+}
+
+.Produtos li {
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.Produtos li:nth-child(1):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoaCamisaBranca.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li:nth-child(2):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoaCamisaAmarela.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li:nth-child(3):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoaSapato.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li:nth-child(4):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoCalça.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li:nth-child(5):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoaVestido.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li:nth-child(6):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoaSapatoPet.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li img {
+    align-self: center;
+    max-width: 200px;
+    margin-top: 5px;
+}
+
+.Produtos li:hover > img {
+    opacity: 0;
+}
+
+.Produtos li:hover > span{
+    color: #000;
+}
+
+.Produtos li:nth-child(3) img{
+    max-width: 300px;
+}
+
+.Produtos li:nth-child(6) img{
+    max-width: 300px;
+}
+
+.Produtos li strong {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.Produtos li span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px 0 20px;
+    color: #ccc;
+    padding-left: 15px;
+}
+
+.Mapa {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 30vh;
+    justify-items: center;
+    align-content: center;
+    background: #fff;
+}
+
+.Mapa h2 {
+    text-align: center;
+    font-family: Bebas neue;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 2.7rem;
+    color: #111;
+}
+
+.Mapa i {
+    margin-right: 10px;
+}
+
+.Mapa section {
+    display: flex;
+
+    margin: auto 0;
+    align-self: center;
+}
+
+.Mapa section p {
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Roboto;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+    background: #111;
+    color: #fff;
+}
+
+
+.Donos {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    max-width: 100vw;
+    min-height: 30vh;
+    color: #fff;
+    align-items: center;
+}
+
+.Perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+.Donos img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Donos article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.Donos h3 {
+    font-family: roboto;
+    font-size: 1.5rem;
+    margin: 30px 0 0px;
+    border-radius: 10px;
+    padding: 10px 0 0;
+}
+
+.Donos article h4 {
+    padding: 7px 0 1px;
+    font-family: roboto;
+    font-size: 1.4rem;
+}
+.Donos article p {
+    font-family: roboto;
+    font-size: .8rem;
+}

@@ -5,20 +5,11 @@
 }
 
 body {
-    -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-
-.Hero {
-    display: grid;
-    background: #222 url(../assets/hero.png) top no-repeat;
-    background-size: cover;
-    max-width: 100vw;
-    height: 100vh;
+    background: #222;
 }
 
 header {
+    background: #111;
     align-self: baseline;
     display: flex;
     justify-content: space-between;
@@ -30,12 +21,13 @@ header section{
     display: flex;
 }
 
-header section a {
+header a {
     padding: 0 20px;
     font-family: roboto;
-    font-size: .9rem;
-    font-weight: 400;
+    font-size: .8rem;
+    font-weight: bold;
     color: #fff;
+    letter-spacing: 1.1px;
 }
 
 header section a:last-child {
@@ -54,60 +46,42 @@ header h1::after {
     content: "Rosaléa";
 }
 
-.RedesSociais {
+.Catalogo {
+    font-family: Roboto;
     display: flex;
-    justify-self: flex-end;
-    align-self: flex-end;
-    padding: 20px 50px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    padding: 0 10%;
+
+    max-width: 100vw;
+
+    text-align: center;
 }
 
-.RedesSociais a {
-    color: #fff;
+.Catalogo i {
     padding: 0 10px;
 }
 
-.RedesSociais a:last-child {
-    padding-right: 0;
+.Catalogo h1 {
+    padding: 50px 0;
+    font-family: Bebas neue;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(255, 214, 68);
 }
 
-
-
-.Historia {
-    display: flex;
-    background: url(../assets/Modelo2.jpg) center no-repeat;
-    background-size: cover;
-    max-width: 100vw;
-    min-height: 100vh;
-    justify-content: space-between;
-
-    justify-content: start;
-    align-items: center;
+.Catalogo h2 {
+    font-size: 1.2rem;
+    color: #fff;
 }
 
-.Info {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-}
-
-.Info article {
-    background-color: rgb(231, 185, 16);
-    display: flex;
-    font-size: 2rem;
-    margin: 30px 0;
-    align-items: center;
-}
-
-.Info article i {
-    padding: 40px 20px;
-    background-color: #FAC90F;
-    color: #000;
-}
-
-.Info article p {
-    padding: 0 20px;
-    font-family: roboto;
-    font-size: 1.5rem;
+.Catalogo hr {
+    width: 500px;
+    border: 0.5px solid rgb(255, 214, 68);
+    margin: 30px 0 80px;
 }
 
 
@@ -170,6 +144,24 @@ header h1::after {
     background-size: cover;
 }
 
+.Produtos li:nth-child(7):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoaCamisaAmarela.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li:nth-child(8):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoaSapato.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.Produtos li:nth-child(9):hover {
+    transition: background cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+    background: url(../assets/PessoCalça.jpg) center no-repeat;
+    background-size: cover;
+}
+
 .Produtos li img {
     align-self: center;
     max-width: 200px;
@@ -192,6 +184,10 @@ header h1::after {
     max-width: 300px;
 }
 
+.Produtos li:nth-child(8) img{
+    max-width: 300px;
+}
+
 .Produtos li strong {
     font-size: 16px;
     line-height: 20px;
@@ -206,96 +202,4 @@ header h1::after {
     margin: 5px 0 20px;
     color: #ccc;
     padding-left: 15px;
-}
-
-.Mapa {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    max-width: 100vw;
-    min-height: 30vh;
-    justify-items: center;
-    align-content: center;
-    background: #fff;
-}
-
-.Mapa h2 {
-    text-align: center;
-    font-family: Bebas neue;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 2.7rem;
-    color: #111;
-}
-
-.Mapa i {
-    margin-right: 10px;
-}
-
-.Mapa section {
-    display: flex;
-
-    margin: auto 0;
-    align-self: center;
-}
-
-.Mapa section p {
-    font-weight: 500;
-    text-align: center;
-    font-size: 1rem;
-    font-family: Roboto;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 4px;
-    background: #111;
-    color: #fff;
-}
-
-
-.Donos {
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    max-width: 100vw;
-    min-height: 30vh;
-    color: #fff;
-    align-items: center;
-}
-
-.Perfil {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: auto;
-}
-
-.Donos img {
-    width: 80px;
-    border-radius: 50%;
-}
-
-.Donos article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 50px;
-}
-
-.Donos h3 {
-    font-family: roboto;
-    font-size: 1.5rem;
-    margin: 30px 0 0px;
-    border-radius: 10px;
-    padding: 10px 0 0;
-}
-
-.Donos article h4 {
-    padding: 7px 0 1px;
-    font-family: roboto;
-    font-size: 1.4rem;
-}
-.Donos article p {
-    font-family: roboto;
-    font-size: .8rem;
 }
