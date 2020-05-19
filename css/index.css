@@ -12,7 +12,7 @@ body {
 
 .Hero {
     display: grid;
-    background: #222 url(../assets/hero.png) top no-repeat;
+    background: #222 url(../assets/hero.jpg) top no-repeat;
     background-size: cover;
     max-width: 100vw;
     height: 100vh;
