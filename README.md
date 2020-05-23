@@ -4,4 +4,4 @@
  #### [Clique aqui](https://mvgoliveira.github.io/Rosalea/) para acesssar o site no github pages.
 
 ## Imagem Da home
-![](/assets/home.png = 328x43)
+![](/assets/home.png)
