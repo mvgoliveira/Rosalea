@@ -5,3 +5,8 @@
 
 ## Imagem Da home
 ![](/assets/home.png)
+
+
+<hr>
+
+Feito com :hearts: por **[Marcus Oliveira](https://www.linkedin.com/in/marcus-oliveira-3b92011a7/)**
