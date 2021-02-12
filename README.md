@@ -9,7 +9,7 @@
 
 ## **📝 Licença**
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/mvgoliveira/gobarber_api/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/mvgoliveira/Rosalea/blob/main/LICENSE) para mais detalhes.
 
 
 <hr>
