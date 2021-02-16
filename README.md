@@ -1,6 +1,5 @@
 # Rosalea
- Site de uma loja de roupa fictícia desenvolvido para a matéria de prática de programação em sistemas web.
- Produzido com html e css.
+ Site de uma loja de roupa fictícia desenvolvido em html, css e js.
  
  #### [Clique aqui](https://mvgoliveira.github.io/Rosalea/) para acesssar o site no github pages.
 
